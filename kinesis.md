@@ -27,8 +27,8 @@ created and while it has a Kinesis application running that is consuming data fr
 
 ### Pricing
 
-* \$0.015 / shard / hour (max 1 MBps ingress, 2 MBps egress)
-* \$0.028 per 1M put transactions
+* $0.015 / shard / hour (max 1 MBps ingress, 2 MBps egress)
+* $0.028 per 1M put transactions
 
 ### Sizes and limits
 

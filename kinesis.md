@@ -1,4 +1,3 @@
-
 *"Amazon Kinesis is a fully managed service for real-time processing of streaming data at massive scale."*
 
 I'd say that is rather a fully-managed distributed queuing service (something better than SQS) because you need to deploy and manage and pay the consumer applications separately, yourself. [[more](http://docs.aws.amazon.com/kinesis/latest/dev/step-four-operate-the-app.html)].  
@@ -17,7 +16,7 @@ In OSS parlance Kinesis would be similar to Kafka. The managed part would be the
 
 ### Concepts
 Producers, Streams, Shards, Partition Keys, Sequence Numbers, Applications (processors/consumers)
-http://docs.aws.amazon.com/kinesis/latest/dev/images/architecture.png
+![Architecture][http://docs.aws.amazon.com/kinesis/latest/dev/images/architecture.png]
 
 An Amazon Kinesis **stream** is composed of multiple **shards**.  
 

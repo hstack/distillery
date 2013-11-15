@@ -15,8 +15,9 @@ In OSS parlance Kinesis would be similar to Kafka. The managed part would be the
 
 
 ### Concepts
-Producers, Streams, Shards, Partition Keys, Sequence Numbers, Applications (processors/consumers)
-![Architecture][http://docs.aws.amazon.com/kinesis/latest/dev/images/architecture.png]
+Producers, Streams, Shards, Partition Keys, Sequence Numbers, Applications 
+
+![Architecture](http://docs.aws.amazon.com/kinesis/latest/dev/images/architecture.png)
 
 An Amazon Kinesis **stream** is composed of multiple **shards**.  
 

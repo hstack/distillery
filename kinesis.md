@@ -4,7 +4,9 @@ http://aws.amazon.com/kinesis/
 
 I'd say that is rather a fully-managed distributed queuing service (something better than SQS) because you need to deploy, manage and pay the consumer applications yourself, separately. [[more](http://docs.aws.amazon.com/kinesis/latest/dev/step-four-operate-the-app.html)].  
 
-In OSS parlance Kinesis would be similar to Kafka. The managed part would be the Kafka brokers.
+In OSS parlance Kinesis would be similar to [Kafka](http://kafka.apache.org/). The managed part would be the Kafka brokers.  
+It's not [Storm](http://storm-project.net/), nor [Samza](http://samza.incubator.apache.org/) as it has been mentioned, so in my opinion the "processing" part in the marketing message seems a bit off.
+
 
 
 ### Highlights:
